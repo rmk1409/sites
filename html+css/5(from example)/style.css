@@ -1,0 +1,57 @@
+.header, .footer {
+	background-color: #334;
+	color: white;
+}
+
+.header, .middle, .footer{
+	padding:20px 370px;
+}
+
+
+h1 {
+	color: #f66;
+}
+
+a {
+	color: #f55;
+}
+
+.but a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.yellow a{
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid red;
+}
+
+body {
+	font-size: 20px;
+	margin: 0px;
+}
+
+.comlanies img {
+	height: 30px;
+}
+
+.photo div{
+	display: inline-block;
+	margin: 5px;
+}
+
+.yellow {
+	background-color: #f8f3dc;
+	padding: 20px 40px;
+}
+
+
+
+.but {
+	background-color: #f55;
+	position: fixed;
+	padding: 10px 40px;
+	right: 0px;
+}

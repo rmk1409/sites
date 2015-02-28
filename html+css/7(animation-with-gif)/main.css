@@ -1,0 +1,27 @@
+.box {
+	width: 192px;
+	height: 128px;
+	margin: 10px auto;
+	box-shadow: 1px 1px 3px #999;
+}
+
+.box1 {
+	margin-top: 20px;
+}
+
+.block {
+	height: 128px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.block1 {
+	/* первый блок */
+	
+	background-image: url(https://htmlacademy.ru/assets/course13/cat_purr.gif);
+}
+
+.block2 {
+	background-image: url(https://htmlacademy.ru/assets/course13/cat_walk.gif);
+	/* второй блок */
+}

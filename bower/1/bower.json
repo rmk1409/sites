@@ -1,0 +1,24 @@
+{
+  "name": "rmk",
+  "version": "0",
+  "description": "descript",
+  "main": "aaoue",
+  "keywords": [
+    "dth"
+  ],
+  "authors": [
+    "hd"
+  ],
+  "license": "th",
+  "homepage": "dht",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}

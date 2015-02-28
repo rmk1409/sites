@@ -1,0 +1,36 @@
+.menu {
+	background: black;
+	color: white;
+}
+
+ul ul {
+	display: none;
+	position: absolute;
+	background: green;
+	list-style: none;
+	padding: 0px;
+	margin: 10px 0px 0px -20px;
+}
+
+ul ul li:hover {
+	background: yellow;
+}
+
+ul ul li {
+	margin: 10px;
+}
+
+.menu>li:hover {
+	background: red;
+}
+
+.menu>li {
+	display: inline-block;
+	width: 150px;
+	padding: 10px 20px;
+	border: 2px solid red;
+}
+
+.menu>li:hover ul {
+	display: block;
+}

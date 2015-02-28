@@ -1,0 +1,29 @@
+
+body {
+	background-color: yellow;
+}
+
+#header {
+	display: block;
+	background-color: yellow;
+	width: 79%;
+	margin: auto;
+	margin-top: 10px;
+	
+}
+
+div {
+	height: 50px;
+	width: 200px;
+	display: inline-block;
+	margin-right: 100px;
+	background: white;
+}
+
+#b3 {
+	margin-right: 0px;
+}
+
+.test {
+	border-radius: 5px;
+}
