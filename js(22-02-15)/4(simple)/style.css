@@ -1,0 +1,50 @@
+.mid {
+    margin: 0 auto;
+    width: 520px;
+    padding: 20px 40px;
+    background: grey;
+}
+
+input {
+    padding: 10px;
+    width: 286px;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid transparent;
+    background: green;
+    color: white;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.buttob-remove {
+    margin-right: 0;
+}
+
+.button-color,
+.button-remove {
+    display: none;
+}
+
+.mid2 {
+    background: black;
+    color: white;
+}
+
+.button-color {
+    background: black;
+}
+
+.button-remove {
+    background: red;
+}
+
+button:hover {
+    border: 1px solid white;
+}
+
+input:focus {
+    outline-color: red;
+}

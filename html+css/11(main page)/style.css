@@ -1,0 +1,50 @@
+body {
+    background-image: url(r/type.png);
+    color: white;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+a {
+    color: gray;
+}
+
+header {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: rgba(155, 155, 155, 0.1);
+    padding: 20px 40px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+section {
+    border-radius: 3px;
+    ;
+    background-color: rgba(155, 155, 155, 0.1);
+    padding: 1px;
+    border: 1px solid black;
+    padding: 20px 40px;
+    margin-top: -1px;
+}
+
+footer{
+    background-color: rgba(155, 155, 155, 0.1);
+    padding: 20px 40px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.mid {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.inner {
+    padding: 20px 40px;
+}
