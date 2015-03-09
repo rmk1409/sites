@@ -1,0 +1,150 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.menu>li:hover {
+    background: #d3d1d1;
+}
+
+.sub-menu>li:hover {
+    background: #1f571a;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    color: white;
+    top: 28px;
+    left: 0px;
+    z-index: 1;
+}
+
+.sub-menu li {
+    background: green;
+    display: inline-block;
+    padding: 5px 10px;
+    width: 86px;
+}
+
+.menu>li:last-child {
+    color: red;
+}
+
+.menu>li:hover .sub-menu {
+    display: block;
+}
+
+.middle {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+header {
+    height: 100px;
+}
+
+header,
+section {
+    margin-bottom: 10px;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+header+section .middle h2,
+header+section .middle p {
+    margin-left: 320px;
+    width: 380px;
+}
+
+header+section .middle img {
+    float: left;
+}
+
+.cont::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.cont {
+    display: none;
+    position: absolute;
+}
+
+.current {
+    display: block;
+    position: absolute;
+}
+
+header+section .middle {
+    height: 302px;
+}
+
+.slider-dots {
+    display: inline-block;
+}
+
+.slider-nav {
+    text-align: center;
+}
+
+.slider-dots li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.arrow-prev {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.arrow-next {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cont:nth-child(1) {
+    background: red;
+}
+
+.cont:nth-child(2) {
+    background: green;
+}
+
+.cont:nth-child(3) {
+    background: blue;
+}
+
+.cont:nth-child(4) {
+    background: yellow;
+}
+
+.cont:nth-child(5) {
+    background: grey;
+}
+
+.active-dot {
+    color: red;
+}
+
+.dot {
+    font-size: 20px;
+}
