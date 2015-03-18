@@ -8,8 +8,20 @@ h2 {
     margin: 0;
 }
 
-a {
+h3 {
     color: gray;
+}
+
+a {
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #9789c7;
+    margin-bottom: -1px;
+}
+
+footer a {
+    display: inline-block;
 }
 
 header {
@@ -31,7 +43,7 @@ section {
     margin-top: -1px;
 }
 
-footer{
+footer {
     background-color: rgba(155, 155, 155, 0.1);
     padding: 20px 40px;
     border: 1px solid black;
