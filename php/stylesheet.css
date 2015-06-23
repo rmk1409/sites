@@ -1,0 +1,33 @@
+.out{
+    margin: 20px auto;
+    display: block;
+    width: 700px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.inner:nth-child(odd){
+    color:white;
+    background-color:#4BB1CF;
+}
+
+.inner:nth-child(even){
+    color:white;
+    background-color:#5EB95E;
+}
+.inner{
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px;
+}
+a{color: #3498db;}
+body{
+    background: black;
+    color: white;
+}
+.out section{
+    padding: 10px;
+}
+.inner+a{
+    margin-left: 10px;
+}
